@@ -1,0 +1,43 @@
+@import url("https://use.typekit.net/xxv2vgb.css");
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfcfc;
+  width: 60%;
+  border: none;
+  border-radius: 15px;
+}
+
+.name {
+  font-family: "goodlife-serif", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  color: #2b6f67;
+}
+
+.subName {
+  font-family: "goodlife-brush", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #55988b;
+}
+
+.homeBody {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+}

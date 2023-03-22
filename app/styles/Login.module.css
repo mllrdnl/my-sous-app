@@ -1,0 +1,71 @@
+@import url("https://use.typekit.net/xxv2vgb.css");
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginH {
+  margin: auto;
+  margin-bottom: 1rem;
+  font-family: "goodlife-serif", sans-serif;
+}
+
+.loginInputs {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.loginInputs input {
+  margin-bottom: 0.8rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.loginInputs input::placeholder {
+  opacity: 0.5;
+}
+
+.loginBtn {
+  width: 80%;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-family: "goodlife-serif", sans-serif;
+  cursor: pointer;
+}
+
+.registerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.registerRow p {
+  margin-right: 1rem;
+  font-family: goodlife-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.gotoRegBtn {
+  border: none;
+  font-family: goodlife-sans, sans-serif;
+  /* font-weight: 800; */
+  font-style: normal;
+  font-size: 18px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #2b6f67;
+}

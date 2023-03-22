@@ -1,0 +1,4 @@
+.resultsBody {
+  display: flex;
+  flex-direction: column;
+}
