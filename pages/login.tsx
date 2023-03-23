@@ -12,6 +12,10 @@ function login() {
         <div>
           <Register />
         </div>
+        <div className={styles.loginOrRegRow}>
+          <button className={styles.loginBtn}>LOGIN</button>
+          <button className={styles.regBtn}>REGISTER</button>
+        </div>
       </div>
     </div>
   );

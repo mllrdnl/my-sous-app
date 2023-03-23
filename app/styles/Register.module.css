@@ -1,0 +1,50 @@
+@import url("https://use.typekit.net/xxv2vgb.css");
+
+.regContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.regH {
+  margin: auto;
+  margin-bottom: 1rem;
+  font-family: "goodlife-serif", sans-serif;
+}
+
+.regForm {
+  display: flex;
+  flex-direction: column;
+}
+.regInputs {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.regInputs input {
+  margin-bottom: 0.8rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.regInputs input::placeholder {
+  opacity: 0.5;
+}
+
+.regBtn {
+  width: 80%;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-family: "goodlife-serif", sans-serif;
+  cursor: pointer;
+}
