@@ -1,5 +1,10 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import LoginModal from "./components/modals/LoginModal";
+import RegisterModal from "./components/modals/RegisterModal";
+import AuthContext from "./AuthContext";
+
+import Toaster from "./toaster";
 
 export const metadata = {
   title: "MySousApp",
@@ -12,12 +17,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="body">
-        <Navbar />
+    <>
+      <html lang="en">
+        <body className="body">
+          <AuthContext>
+            <Toaster />
+            <Navbar />
+            <RegisterModal />
+            <LoginModal />
 
-        {children}
-      </body>
-    </html>
+            {children}
+          </AuthContext>
+        </body>
+      </html>
+    </>
   );
 }

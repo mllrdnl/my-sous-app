@@ -1,11 +1,4 @@
-import { Inter } from "next/font/google";
-import IngSearch from "./components/IngSearch";
-
 import styles from "./styles/page.module.css";
-import IngSearchResults from "./components/IngSearchResults";
-
-import { store } from "@/store";
-import { setStartupIngredients } from "@/store/ingSearchSlice";
 
 export default function Home() {
   return (
@@ -16,7 +9,7 @@ export default function Home() {
           your decision-making kitchen assistant
         </h2>
       </div>
-      <div className={styles.homeBody}>{/* <IngSearch /> */}</div>
+      <div className={styles.homeBody}></div>
     </main>
   );
 }
